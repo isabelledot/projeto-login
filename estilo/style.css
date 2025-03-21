@@ -20,11 +20,12 @@
 
 body, html {
     background-color: var(--cor1);
+    margin: auto;
 }
 
 #login {
     position: absolute;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -45%);
 
     background-color: white;
     width: 330px;
@@ -64,6 +65,8 @@ input {
     border-radius: 5px;
     text-indent: 1.3em;
     font-size: 1em;
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 
 input:hover {
@@ -73,7 +76,7 @@ input:hover {
 .acessar {
     width: 84%;
     height: 40px;
-    margin-left: 17px;
+    margin-left: 20px;
     padding-right: 20px;
     margin-top: 20px;
     color: darkred;
@@ -84,7 +87,8 @@ a {
     display: inline-block;
     margin-left: 17px;
     margin-top: 10px;
-    color: black;
+    color: darkred;
+    font-weight: bold;
 }
 
 a:hover {
