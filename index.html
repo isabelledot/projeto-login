@@ -3,9 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo/style.css">
 </head>
 <body>
-    
+    <main>
+        <section id="login">
+            <div id="img"></div>
+            <div id="form">
+              <h2>Bem-vindo ao Meu Site</h2>
+              <form action="login.php" method="post" autocomplete="on">
+                <div class="campo">
+                    <label for="ilogin">Login</label> <br>
+                    <input type="email" name="login" id="ilogin" placeholder="E-mail" autocomplete="email" required maxlength="30">
+                </div>
+                <div class="campo">
+                    <label for="isenha">Senha</label> <br>
+                    <input type="password" name="senha" id="isenha" placeholder="Senha" autocomplete="current-password" required minlength="8">
+                   
+                </div>
+                
+                <a href="#">Primeiro acesso?</a>
+                <a href="#">Esqueceu sua senha?</a>
+                <input class="acessar" type="submit" value="Acessar">
+              </form>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
