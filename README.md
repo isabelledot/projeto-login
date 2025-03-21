@@ -8,8 +8,9 @@
   <li>CSS</li>
 </ul>
 
-![Image](https://github.com/user-attachments/assets/9ccefc91-903c-4636-b7fb-4b57fed3df24)
-
 <h2>Para acessar o projeto, clique no link abaixo:</h2>
 
 (https://isabelledot.github.io/projeto-login/)
+
+![Image](https://github.com/user-attachments/assets/9ccefc91-903c-4636-b7fb-4b57fed3df24)
+
