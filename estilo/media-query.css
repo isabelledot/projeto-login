@@ -4,6 +4,15 @@
     #login {
     width: 492px;
     height: 600px;
+    transform: translate(-50%, -45%);
+    }
+
+    #img {
+        margin-bottom: 40px;
+    }
+
+    h2 {
+        padding-bottom: 10px;
     }
 
     .campo {
@@ -22,7 +31,7 @@
 
     .acessar {
         width: 80%;
-        height: 45px;
+        height: 50px;
         margin-top: 50px;
         margin-left: 50px;
     }

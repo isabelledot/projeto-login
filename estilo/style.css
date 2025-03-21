@@ -25,7 +25,9 @@ body, html {
 
 #login {
     position: absolute;
-    transform: translate(-50%, -45%);
+    transform: translate(-50%, -40%);
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 
     background-color: white;
     width: 330px;
@@ -38,35 +40,40 @@ body, html {
 
 #img {
     background-color: white;
-    background-image: url(../img/Logo\ marca\ de\ ropa.png);
-    width: 90%;
-    height: 125px;
-    margin-left: 10px;
+    background-image: url(../img/branding.png);
+    width: 53%;
+    height: 74px;
+    margin-top: 35px;
+    margin-left: 16px;
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 h2 {
     text-align: center;
-    color: rgb(168, 16, 16);
+    color: darkred;
+    margin-bottom: 14px;
 }
 
 .campo {
     padding: 10px;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 input {
     width: 90%;
     height: 40px;
     border: none;
-    background-color: rgba(255, 223, 223, 0.925) ;
+    background-color: #e63b5d34;
     margin-top: 10px;
     border-radius: 5px;
     text-indent: 1.3em;
     font-size: 1em;
-    transition: width .3s, height .3s;
-    transition-timing-function: ease;
+}
+
+::placeholder {
+    color: darkred;
+    font-weight: bold;
 }
 
 input:hover {
@@ -74,11 +81,11 @@ input:hover {
 }
 
 .acessar {
-    width: 84%;
+    width: 80%;
     height: 40px;
-    margin-left: 20px;
+    margin-left: 30px;
     padding-right: 20px;
-    margin-top: 20px;
+    margin-top: 30px;
     color: darkred;
     font-weight: bolder;
 }
