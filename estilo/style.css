@@ -25,7 +25,7 @@ body, html {
 
 #login {
     position: absolute;
-    transform: translate(-50%, -40%);
+    transform: translate(-50%, -50%);
     transition: width .3s, height .3s;
     transition-timing-function: ease;
 
